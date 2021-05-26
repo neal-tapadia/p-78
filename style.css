@@ -1,0 +1,26 @@
+body {
+text-align: centers;
+background-color: beige;
+
+}
+h1{
+ -ms-text-size-adjust: 300px;
+ text-align: center;
+}
+img{
+    
+    height: 60%; 
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 60%;
+}
+#name{
+    text-align: center;
+text-size-adjust: 250px;
+}
+button{
+    height: 25px;
+    width:55px;
+    margin-left: 47%;
+    margin-right: 47%;
+}

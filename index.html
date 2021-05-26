@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>
+            p-family tree
+        </title>
+        <body>
+            <h1>
+                My Family Book
+            </h1>
+            
+            <img id="img" src="BOY..jpg">
+            <br>
+            
+            
+            <h2 id="name"> 
+                Neal Tapadia
+            </h2>
+            
+            <button onclick="next_image">Next
+            </button>
+        </body>
+    </head>
+</html>
+<script>
+    var image_set=[BOY.jpg,IRL.jpg,MOM.jpg,FATHER.jpg,GRANDMOTHER.jpg,GRANDFATHER.jpg]
+    var next_name=["Neal Tapadia","Nidhi Tapadia","Sheetal Tapadia","Nikhil Tapadia","Omprakash Tapde","Pushpa Tapade"]
+    var i=0;
+    function next_image(){
+        document.getElementById(img).innerHTML=image_set[i+1]
+        if (i=4) {
+            i=0;
+        }
+    }
+    function next_name(){
+        document.getElementById(name).innerHTML=next_name[i+1]
+        if (i=4){
+            i=0;
+        }
+       
+        
+    
+</script>
